@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdio>//we have not use this but it is used for printf and scan f
+#include <iomanip>//used to take decimal value like setpricison and fixed 
+using namespace std;
+
+int main() {
+    int a;
+    char b;
+    long c;
+    double d;
+    float e;
+    cin>>a>>c>>b>>e>>d;
+    cout<<a<<endl<<c<<endl<<b<<endl;
+    cout<<fixed<<setprecision(  3)<<e<<endl;
+    cout<<fixed<<setprecision(  9)<<d<<endl;
+    // Complete the code.
+    return 0;
+}
